@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>expatauction</title>
+    <style>
+      html, body{
+        margin: 0;
+        padding: 0;
+        background: #efefef;
+      }
+
+      h1, h2, h3, h4, h5, h6,p {
+        margin-top: 0;
+      }
+
+      .app-container{
+        margin: 0 auto;
+        max-width: 600px;
+        background: #fff;
+        height: 100vh;
+      }
+
+      .util-mb-20{
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app" class="app-container">
+      <nav-bar></nav-bar>
+      <router-view></router-view>
+    </div>
+    <script src="/dist/build.js"></script>
+  </body>
+</html>
