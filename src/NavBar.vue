@@ -24,7 +24,7 @@
         </div>
       </router-link>
 
-      <router-link to="/seller/auctions" exact active-class="active" class="nav-item">
+      <router-link to="/seller/auctions" active-class="active" class="nav-item">
         <div>
           <symbol id="icon-auction" viewBox="0 0 32 32">
             <title>auction</title>

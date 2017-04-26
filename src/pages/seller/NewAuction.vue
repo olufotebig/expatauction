@@ -36,13 +36,21 @@
         List of items
       </div>
     </div>
+
+    <fab :clickEvent="fabClick" symbol="+"></fab>
   </div>
 </template>
 
 <script>
-import TextInput from '../components/input/TextInput.vue'
+import TextInput from '../../components/input/TextInput.vue'
+import Fab from '../../components/Fab.vue'
 export default {
-  components: {TextInput}
+  components: {TextInput, Fab},
+  methods: {
+    fabClick(){
+      console.log('click at new auction');
+    }
+  }
 }
 </script>
 
